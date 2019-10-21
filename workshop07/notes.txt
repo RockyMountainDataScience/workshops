@@ -10,8 +10,8 @@ https://git-scm.com/docs.
 
 - clone
 - status
-- add [-m -a]
-- commit
+- add 
+- commit [-a -m "MESSAGE"]
 - push
 - pull
 - checkout
@@ -25,5 +25,5 @@ VS Code has git natively built in!
 
 ::::::::::::::::: TASKS :::::::::::::::::::::
 A) clone our RMDS workshop repo
-B) fix a bug in my code that I'll have in the repo 
+B) fix a bug in my code that I'll have in the repo
 C) make your own repo on GitHub, clone it, commit a README, and push to GitHub.
