@@ -1,0 +1,29 @@
+This workshop will show you how to debug your code without print statements
+and with the native debugger in your IDE (we will use VS Code for the demo).
+Can you find the bug in the interpolate_polynomial() function? It is very 
+subtle.
+
+Also we will learn about using git code versioning software (there are others 
+e.g. svn). Services that use git inlcude GitHub, GitLab, BitBucket, etc. 
+We will cover the following commands that are covered in detail in
+https://git-scm.com/docs. 
+
+- clone
+- status
+- add [-m -a]
+- commit
+- push
+- pull
+- checkout
+- log
+- diff
+
+A good place for git background is 
+https://git-scm.com/book/en/v1/Getting-Started-Git-Basics
+
+VS Code has git natively built in!
+
+::::::::::::::::: TASKS :::::::::::::::::::::
+A) clone our RMDS workshop repo
+B) fix a bug in my code that I'll have in the repo 
+C) make your own repo on GitHub, clone it, commit a README, and push to GitHub.
