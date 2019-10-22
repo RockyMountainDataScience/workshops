@@ -1,29 +1,49 @@
-This workshop will show you how to debug your code without print statements
-and with the native debugger in your IDE (we will use VS Code for the demo).
-Can you find the bug in the interpolate_polynomial() function? It is very 
-subtle.
+:::::::::::::::::::::: SOFTWARE VERSIONING ::::::::::::::::::::::::::
+We will learn about using git software to version your code (there are others 
+e.g. svn). Much better than Dropbox! git is useful for:
 
-Also we will learn about using git code versioning software (there are others 
-e.g. svn). Services that use git inlcude GitHub, GitLab, BitBucket, etc. 
-We will cover the following commands that are covered in detail in
-https://git-scm.com/docs. 
+- putting your code on multiple machines (or used as a backup if on server)
+- you don't know how large your project will get and git will let you 
+  seamlessly manage its history for months and years.
+- present your work for potential employers e.g. GitHub Pages.
+- collaboration
 
-- clone
-- status
-- add 
-- commit [-a -m "MESSAGE"]
-- push
-- pull
-- checkout
-- log
-- diff
+Services that use git under the hood inlcude GitHub, GitLab, BitBucket, etc. 
+Here are the most used git commands. 
 
-A good place for git background is 
-https://git-scm.com/book/en/v1/Getting-Started-Git-Basics
+- status -- Check the status of the repository.
+- add    -- Stage changes to commit (add a new version) of your repository.
+- commit -- Make a new version of your code. The commit message is your
+            feedback to yourself and others. Useful optional arguments
+            are: -a  and -m "MESSAGE".
+- push   -- Upload the new version of the repository to a server
+- pull   -- Download the new version of the repository from a server if 
+            it already exists on your machine.
+- clone  -- Copy a repository from server into a new repository on your 
+            machine
+- checkout -- Switch to a different branch or different version (commit) of 
+            your repository. Use git log for commit info.
+- log    -- Shows the commit log with author and date information.
+- diff   -- By default shows the difference between the most recent 
+            commit and your current code or can be used to compare your
+            current code to the code from a different commit.
+
+git documentation is at https://git-scm.com/docs and a good starting place 
+for git is at https://git-scm.com/book/en/v1/Getting-Started-Git-Basics
+
+### Installing git on Windows ###
+https://www.computerhope.com/issues/ch001927.htm can also try: https://desktop.github.com/
 
 VS Code has git natively built in!
 
+::::::::::::::::::::::::::::: DEBUGGING :::::::::::::::::::::::::::::
+Debugging ise useful for fixing complex code without print statements. 
+A debugger already comes with your IDE and we will use VS Code for the demo.
+Can you find the bug in the interpolate_polynomial() function? It is very 
+subtle.
+
 ::::::::::::::::: TASKS :::::::::::::::::::::
-A) clone our RMDS workshop repo
-B) fix a bug in my code that I'll have in the repo
-C) make your own repo on GitHub, clone it, commit a README, and push to GitHub.
+1) clone our RMDS workshop repo
+2) make your own repo on GitHub, clone it, commit a README, and push to GitHub.
+3) Debug the fib.py file to output correct Fibonacci number (10th Fibonacci 
+number is 55).

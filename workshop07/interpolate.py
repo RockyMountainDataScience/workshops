@@ -35,6 +35,7 @@ if __name__ == '__main__':
     y_interp = interpolate_polynomial(x_interp, p)
     plt.scatter(x, y_interp(x), label='raw', c='k')
     plt.plot(x_interp, y_interp(x_interp), label='interpolated')
+    plt.title(r'Interpolating $y = 5 + 2x^2$')
     plt.xlabel('x'); plt.ylabel('y')
     plt.legend()
     plt.show()
