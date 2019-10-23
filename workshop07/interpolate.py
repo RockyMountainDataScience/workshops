@@ -29,13 +29,13 @@ def interpolate_polynomial(x, p, kind='linear'):
 
 if __name__ == '__main__':
     x = np.linspace(0, 10, num=3) # num=50 is the default value
-    p = [5, 0, 2]
+    p = [20, 0, 2]
 
     x_interp = np.linspace(0, 10, num=100)
     y_interp = interpolate_polynomial(x_interp, p)
     plt.scatter(x, y_interp(x), label='raw', c='k')
     plt.plot(x_interp, y_interp(x_interp), label='interpolated')
-    plt.title(r'Interpolating $y = 5 + 2x^2$')
+    plt.title(r'Interpolating $y = 20 + 2x^2$')
     plt.xlabel('x'); plt.ylabel('y')
     plt.legend()
     plt.show()
