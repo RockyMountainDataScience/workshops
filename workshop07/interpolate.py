@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 print(f'Scipy version {scipy.__version__}')
 
+
 # This program will interpolate a general polynomial over 
 # x. There is a suddle bug in the interpolate_polynomial
 # function. Can you find it without print statements?
