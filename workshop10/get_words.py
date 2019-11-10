@@ -1,6 +1,7 @@
 # Search the spambase.names file and use regular expressions to find the 
 # words that correspond to the columns in spambase.data. More regex 
-# details at https://en.wikipedia.org/wiki/Regular_expression
+# details at https://en.wikipedia.org/wiki/Regular_expression or
+# Automate The Boring Stuff With Python book by Al Sweigart.
 
 import re
 import os
