@@ -28,7 +28,10 @@ def get_words():
     string = load_file()
     # Regex can be read as "Match any set of a-z characters word(s)
     #  after word_freq_ and before :"
-    regex = re.compile(r'word_freq_([a-z]*):')
+    regex = re.compile(r'word_freq_([0-9a-z]*):')
     # Use the regular expression to find all words.
     words = regex.findall(string)
     return words
+
+if __name__ == '__main__':
+    print(get_words())
